@@ -1,0 +1,29 @@
+{
+  "name": "live_sports",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node  index.js",
+    "start:ts": "tsx src/index.ts",
+    "db:generate": "drizzle-kit generate --config=src/db/drizzle.config.ts",
+    "db:migrate": "drizzle-kit migrate --config=src/db/drizzle.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.16.0",
+    "drizzle-kit": "^0.31.8",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
