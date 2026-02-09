@@ -1,6 +1,6 @@
 import express from 'express';
 import matchRouter from './routes/matches.js';
-import { matchStatusScheduler } from './triggers/match_sceduler.js';
+import { matchStatusScheduler } from './triggers/match_scheduler.js';
 const app = express();
 const PORT = process.env.PORT || 8000;
 

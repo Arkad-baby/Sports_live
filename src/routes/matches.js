@@ -82,9 +82,7 @@ const formatErrorResponse = (message, errors = null) => {
 };
 
 const handleZodError = (res, error) => {
-  console.log('Zod Error:', JSON.stringify(error, null, 2)); // Debug log
   
-  // Check if error has issues (Zod v3+) or errors property
   const errorList = error.issues || error.errors || [];
   
   if (errorList.length === 0) {
@@ -113,9 +111,9 @@ const handleZodError = (res, error) => {
 
 const handleServerError = (res, error, message = 'An error occurred') => {
   console.error(`${message}:`, error);
-  return res.status(500).json(
-    formatErrorResponse(message, error.message)
-  );
+ return res.status(500).json(
+   formatErrorResponse(message)
+  )
 };
 
 // Data Transformation

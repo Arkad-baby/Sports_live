@@ -1,5 +1,5 @@
-import { db } from '../db/db.ts';
-import { matches } from '../db/schema.ts';
+import { db } from '../db/db.js';
+import { matches } from '../db/schema.js';
 import { and, or, eq, lte, gte, isNotNull } from 'drizzle-orm';
 
 export class MatchStatusScheduler {
@@ -45,6 +45,8 @@ export class MatchStatusScheduler {
    * Check and update match statuses
    */
   async updateMatchStatuses() {
+    if (this.isUpdating) return;   //prevent overlapping
+    this.isUpdating = true;   //lock the process
     try {
       const now = new Date();
       
@@ -62,6 +64,9 @@ export class MatchStatusScheduler {
     } catch (error) {
       console.error('Error updating match statuses:', error);
     }
+    finally{
+      this.isUpdating = false;   //unlock the process
+    }
   }
 
 
@@ -77,10 +82,6 @@ export class MatchStatusScheduler {
             eq(matches.status, 'scheduled'),
             isNotNull(matches.startTime),
             lte(matches.startTime, now),
-            or(
-              // eq(matches.endTime, null),
-              gte(matches.endTime, now)
-            )
           )
         )
         .returning({ id: matches.id });
