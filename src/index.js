@@ -1,5 +1,6 @@
-const express = require('express');
-
+import express from 'express';
+import matchRouter from './routes/matches.js';
+import { matchStatusScheduler } from './triggers/match_sceduler.js';
 const app = express();
 const PORT = process.env.PORT || 8000;
 
@@ -9,8 +10,11 @@ app.get('/', (req, res) => {
 	res.send(' Live Sports — server is running very happy');
 });
 
+app.use('/matches',matchRouter)
+
 app.listen(PORT, () => {
+	matchStatusScheduler.start()
 	console.log(`Server is running on http://localhost:${PORT}`);
 });
 
-module.exports = app;
+export default app;
