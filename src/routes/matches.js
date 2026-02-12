@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { db } from '../db/db.ts';
 import { matches } from '../db/schema.ts';
 import { desc, eq } from 'drizzle-orm';
+import app from '../index.js';
 
 const matchRouter = express.Router();
 
@@ -200,6 +201,9 @@ const createMatch = async (req, res) => {
     res.status(201).json(
       formatSuccessResponse(newMatch, 'Match created successfully')
     );
+    if(res.app.locals.broadcastMatchCreated){
+      res.app.locals.broadcastMatchCreated(newMatch)
+    }
   } catch (error) {
     if (error instanceof z.ZodError) {
       return handleZodError(res, error);

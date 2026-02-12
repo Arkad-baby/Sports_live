@@ -1,5 +1,5 @@
-import { db } from '../db/db.js';
-import { matches } from '../db/schema.js';
+import { db } from '../db/db.ts';
+import { matches } from '../db/schema.ts';
 import { and, or, eq, lte, gte, isNotNull } from 'drizzle-orm';
 
 export class MatchStatusScheduler {
