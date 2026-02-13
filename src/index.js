@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
 app.use('/matches',matchRouter)
 
 const {broadcastMatchCreated}=attachWebSocketServer(server)
+//a persistent object used for storing global variables
 app.locals.broadcastMatchCreated=broadcastMatchCreated
 
 server.listen(PORT,HOST, () => {
