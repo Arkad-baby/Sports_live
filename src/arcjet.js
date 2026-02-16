@@ -12,11 +12,13 @@ export const httpArcjet = ARCJET_KEY
         // Shield protects your app from common attacks e.g. SQL injection
         shield({ mode: "LIVE" }),
         detectBot({
-          mode: "LIVE", // Blocks requests. Use "DRY_RUN" to log only
+          mode: "DRY_RUN", // Blocks requests. Use "DRY_RUN" to log only
           // Block all bots except the following
           allow: [
             "CATEGORY:SEARCH_ENGINE", // Google, Bing, etc
             "CATEGORY:PREVIEW",
+            "CURL",    // Allows curl requests
+    "POSTMAN", // Allows Postman specifically
           ],
         }),
         slidingWindow({
@@ -33,7 +35,7 @@ export const wsArcjet = ARCJET_KEY
       key: ARCJET_KEY,
       rules: [
         // Shield protects your app from common attacks e.g. SQL injection
-        shield({ mode: "LIVE" }),
+        shield({ mode: "DRY_RUN" }),
         detectBot({
           mode: "LIVE", // Blocks requests. Use "DRY_RUN" to log only
           // Block all bots except the following
@@ -67,7 +69,7 @@ export const middleWare = async (req, res, next) => {
         res.writeHead(403, { "Content-Type": "application/json" });
         res.end(JSON.stringify({ error: "Forbidden" }));
       }
-
+      return
     }
     next()
   } catch (error) {
