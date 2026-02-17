@@ -1,3 +1,6 @@
+import AgentAPI from 'apminsight';
+AgentAPI.config()
+
 import express from 'express';
 import matchRouter from './routes/matches.js';
 import { matchStatusScheduler } from './triggers/match_scheduler.js';
