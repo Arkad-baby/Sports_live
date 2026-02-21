@@ -1,12 +1,5 @@
 [build]
   base = "frontend"
-  publish = "."
-
+  publish = "frontend"
 [functions]
-  directory = "../netlify/functions"
-  node_bundler = "esbuild"
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/api/:splat"
-  status = 200
+  directory = "frontend/netlify/functions"
