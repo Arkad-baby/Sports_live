@@ -35,9 +35,7 @@ const sendError = (res, error) => {
   });
 };
 
-/**
- * POST /api/commentaries - Create commentary
- */
+
 router.post('/', async (req, res) => {
   try {
     const data = CreateCommentarySchema.parse(req.body);
@@ -57,10 +55,7 @@ router.post('/', async (req, res) => {
 
 });
 
-/**
- * GET /api/commentaries/match/:matchId - Get all commentaries for a match
- * Returns empty array if no commentaries found
- */
+
 router.get('/match/:matchId', async (req, res) => {
   try {
     const { matchId } = MatchIdParamSchema.parse(req.params);
@@ -92,9 +87,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-/**
- * PATCH /api/commentaries/:id - Update commentary
- */
+
 router.patch('/:id', async (req, res) => {
   try {
     const { id } = IdParamSchema.parse(req.params);

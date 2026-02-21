@@ -1,0 +1,852 @@
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "events"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::prototype.addListener 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "http"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::createServer 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Server 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::request 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::get 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "https"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::createServer 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Server 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::request 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::get 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "http2"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::createSecureServer 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Http2ServerRequest.prototype.setTimeout 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Http2ServerResponse.prototype.end 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Http2ServerResponse.prototype.setTimeout 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Http2ServerResponse.prototype.createPushResponse 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "net"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Server.prototype.getConnections 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Server.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Socket.prototype.setTimeout 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Socket.prototype.write 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Socket.prototype.connect 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::createConnection 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Server.prototype.listen 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "fs"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::access 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::ftruncate 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::mkdir 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::mkdtemp 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::readdir 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::readFile 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::readlink 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::realpath 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::truncate 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::appendFile 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::symlink 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::copyFile 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::open 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::writeFile 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::chmod 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::fchmod 
+[19/2/2026 8:17:38] [INFO] lchmod is undefined in module::fs 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::link 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::rename 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::chown 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::fchown 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::lchown 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::futimes 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::utimes 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::exists 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::fdatasync 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::fstat 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::fsync 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::lstat 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::stat 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::rmdir 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::unlink 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::read 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::write 
+[19/2/2026 8:17:38] [INFO] realpath.native is undefined in module::fs 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "dns"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::lookupService 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::lookup 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolve 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolve4 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolve6 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolveCname 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolveMx 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolveNaptr 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolveNs 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolvePtr 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolveSoa 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolveSrv 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolveTxt 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::resolveAny 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::reverse 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "crypto"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::pbkdf2 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::randomBytes 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::randomFill 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::generateKeyPair 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::scrypt 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "domain"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Domain.prototype.bind 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Domain.prototype.intercept 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "zlib"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Deflate.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Inflate.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Gzip.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Gunzip.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::DeflateRaw.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::InflateRaw.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Unzip.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Deflate.prototype.flush 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Inflate.prototype.flush 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Gzip.prototype.flush 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Gunzip.prototype.flush 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::DeflateRaw.prototype.flush 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::InflateRaw.prototype.flush 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Unzip.prototype.flush 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Deflate.prototype.params 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::deflate 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::deflateRaw 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::gunzip 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::gzip 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::inflate 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::inflateRaw 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::unzip 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "child_process"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::exec 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::execFile 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "cluster"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::disconnect 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Worker.prototype.send 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "process"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::send 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::nextTick 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "dgram"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Socket.prototype.bind 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Socket.prototype.close 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Socket.prototype.send 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::createSocket 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "tls"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::connect 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::TLSSocket.prototype.renegotiate 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "stream"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Writable.prototype.write 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Writable.prototype.end 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::finished 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::pipeline 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "global"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::setImmediate 
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::setTimeout 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "inspector"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Session.prototype.post 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "worker_threads"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Worker.prototype.terminate 
+[19/2/2026 8:17:38] [INFO] Instrumenting module:: "readline"
+[19/2/2026 8:17:38] [INFO] Instrumenting function ::Interface.prototype.question 
+[19/2/2026 8:17:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:17:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:17:38] [INFO] Application port number is auto-detected as :: 8000 
+[19/2/2026 8:18:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:18:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:18:38] [INFO] data processing starts 
+[19/2/2026 8:18:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:18:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:18:38] [INFO] data processing ends 
+[19/2/2026 8:18:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:18:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:19:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:19:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:19:38] [INFO] data processing starts 
+[19/2/2026 8:19:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:19:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:19:38] [INFO] data processing ends 
+[19/2/2026 8:19:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:19:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:20:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:20:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:20:38] [INFO] data processing starts 
+[19/2/2026 8:20:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:20:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:20:38] [INFO] data processing ends 
+[19/2/2026 8:20:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:20:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:21:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:21:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:21:38] [INFO] data processing starts 
+[19/2/2026 8:21:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:21:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:21:38] [INFO] data processing ends 
+[19/2/2026 8:21:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:21:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:21:46] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:22:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:22:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:22:38] [INFO] data processing starts 
+[19/2/2026 8:22:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:22:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:22:38] [INFO] data processing ends 
+[19/2/2026 8:22:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:22:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:23:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:23:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:23:38] [INFO] data processing starts 
+[19/2/2026 8:23:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:23:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:23:38] [INFO] data processing ends 
+[19/2/2026 8:23:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:23:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:24:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:24:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:24:38] [INFO] data processing starts 
+[19/2/2026 8:24:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:24:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:24:38] [INFO] data processing ends 
+[19/2/2026 8:24:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:24:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:25:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:25:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:25:38] [INFO] data processing starts 
+[19/2/2026 8:25:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:25:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:25:38] [INFO] data processing ends 
+[19/2/2026 8:25:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:25:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:26:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:26:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:26:38] [INFO] data processing starts 
+[19/2/2026 8:26:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:26:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:26:38] [INFO] data processing ends 
+[19/2/2026 8:26:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:26:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:27:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:27:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:27:38] [INFO] data processing starts 
+[19/2/2026 8:27:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:27:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:27:38] [INFO] data processing ends 
+[19/2/2026 8:27:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:27:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:28:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:28:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:28:38] [INFO] data processing starts 
+[19/2/2026 8:28:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:28:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:28:38] [INFO] data processing ends 
+[19/2/2026 8:28:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:28:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:29:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:29:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:29:38] [INFO] data processing starts 
+[19/2/2026 8:29:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:29:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:29:38] [INFO] data processing ends 
+[19/2/2026 8:29:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:29:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:30:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:30:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:30:38] [INFO] data processing starts 
+[19/2/2026 8:30:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:30:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:30:38] [INFO] data processing ends 
+[19/2/2026 8:30:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:30:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:31:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:31:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:31:38] [INFO] data processing starts 
+[19/2/2026 8:31:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:31:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:31:38] [INFO] data processing ends 
+[19/2/2026 8:31:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:31:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:32:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:32:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:32:38] [INFO] data processing starts 
+[19/2/2026 8:32:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:32:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:32:38] [INFO] data processing ends 
+[19/2/2026 8:32:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:32:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:33:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:33:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:33:38] [INFO] data processing starts 
+[19/2/2026 8:33:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:33:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:33:38] [INFO] data processing ends 
+[19/2/2026 8:33:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:33:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:34:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:34:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:34:38] [INFO] data processing starts 
+[19/2/2026 8:34:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:34:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:34:38] [INFO] data processing ends 
+[19/2/2026 8:34:40] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:34:40] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:35:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:35:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:35:38] [INFO] data processing starts 
+[19/2/2026 8:35:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:35:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:35:38] [INFO] data processing ends 
+[19/2/2026 8:35:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:35:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:36:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:36:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:36:38] [INFO] data processing starts 
+[19/2/2026 8:36:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:36:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:36:38] [INFO] data processing ends 
+[19/2/2026 8:36:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:36:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:37:12] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:37:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:37:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:37:38] [INFO] data processing starts 
+[19/2/2026 8:37:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:37:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:37:38] [INFO] data processing ends 
+[19/2/2026 8:37:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:37:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:38:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:38:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:38:38] [INFO] data processing starts 
+[19/2/2026 8:38:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:38:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:38:38] [INFO] data processing ends 
+[19/2/2026 8:38:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:38:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:39:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:39:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:39:38] [INFO] data processing starts 
+[19/2/2026 8:39:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:39:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:39:38] [INFO] data processing ends 
+[19/2/2026 8:39:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:39:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:40:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:40:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:40:38] [INFO] data processing starts 
+[19/2/2026 8:40:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:40:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:40:38] [INFO] data processing ends 
+[19/2/2026 8:40:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:40:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:41:8] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:8] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:9] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:9] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:10] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:10] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:11] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:11] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:11] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:12] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:12] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:13] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:13] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:13] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:14] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:14] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:15] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:15] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:16] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:16] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:17] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:17] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:17] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:18] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:18] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:19] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:19] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:19] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:20] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:20] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:21] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:21] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:22] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:22] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:23] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:23] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:23] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:24] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:24] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:25] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:25] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:26] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:26] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:26] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:27] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:27] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:28] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:28] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:29] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:29] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:30] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:30] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:41:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:41:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:41:38] [INFO] data processing starts 
+[19/2/2026 8:41:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:41:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:41:38] [INFO] data processing ends 
+[19/2/2026 8:41:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:41:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:42:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:42:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:42:38] [INFO] data processing starts 
+[19/2/2026 8:42:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:42:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:42:38] [INFO] data processing ends 
+[19/2/2026 8:42:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:42:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:43:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:43:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:43:38] [INFO] data processing starts 
+[19/2/2026 8:43:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:43:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:43:38] [INFO] data processing ends 
+[19/2/2026 8:43:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:43:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:44:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:44:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:44:38] [INFO] data processing starts 
+[19/2/2026 8:44:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:44:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:44:38] [INFO] data processing ends 
+[19/2/2026 8:44:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:44:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:45:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:45:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:45:38] [INFO] data processing starts 
+[19/2/2026 8:45:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:45:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:45:38] [INFO] data processing ends 
+[19/2/2026 8:45:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:45:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:46:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:46:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:46:38] [INFO] data processing starts 
+[19/2/2026 8:46:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:46:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:46:38] [INFO] data processing ends 
+[19/2/2026 8:46:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:46:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:47:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:47:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:47:38] [INFO] data processing starts 
+[19/2/2026 8:47:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:47:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:47:38] [INFO] data processing ends 
+[19/2/2026 8:47:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:47:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:48:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:48:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:48:38] [INFO] data processing starts 
+[19/2/2026 8:48:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:48:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:48:38] [INFO] data processing ends 
+[19/2/2026 8:48:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:48:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:49:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:49:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:49:38] [INFO] data processing starts 
+[19/2/2026 8:49:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:49:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:49:38] [INFO] data processing ends 
+[19/2/2026 8:49:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:49:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:50:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:50:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:50:38] [INFO] data processing starts 
+[19/2/2026 8:50:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:50:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:50:38] [INFO] data processing ends 
+[19/2/2026 8:50:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:50:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:51:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:51:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:51:38] [INFO] data processing starts 
+[19/2/2026 8:51:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:51:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:51:38] [INFO] data processing ends 
+[19/2/2026 8:51:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:51:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:52:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:52:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:52:38] [INFO] data processing starts 
+[19/2/2026 8:52:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:52:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:52:38] [INFO] data processing ends 
+[19/2/2026 8:52:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:52:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:53:9] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:53:16] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:53:19] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:53:20] [CRITICAL] txn dropped due to sampling factor 
+[19/2/2026 8:53:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.1.0","@arcjet/node":"^1.1.0","apminsight":"^5.3.0","dotenv":"^17.2.4","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.18.0","ws":"^8.19.0","zod":"^4.3.6"} 
+[19/2/2026 8:53:38] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[19/2/2026 8:53:38] [INFO] data processing starts 
+[19/2/2026 8:53:38] [CRITICAL]  Unknown response code ::undefined 
+[19/2/2026 8:53:38] [INFO] intiating /arh/data request to undefined:443 
+[19/2/2026 8:53:38] [INFO] data processing ends 
+[19/2/2026 8:53:41] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[19/2/2026 8:53:41] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\krita\OneDrive\Desktop\live_sports\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[19/2/2026 8:53:46] [INFO] /favicon.ico txn skipped because of config 
