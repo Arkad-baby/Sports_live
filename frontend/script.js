@@ -1,5 +1,9 @@
-const API_BASE = 'http://localhost:8000';
-const WS_URL   = 'ws://localhost:8000/ws';
+// const API_BASE = 'http://localhost:8000';
+// const WS_URL   = 'ws://localhost:8000/ws';
+
+//for netlify serverlss backend
+const API_BASE = '/api';
+const WS_URL = null;
 let globalWs = null;
 let ws             = null;
 let currentMatchId = null;
@@ -42,6 +46,7 @@ const goalScorer     = document.getElementById('goal-scorer');
 loadMatches();
 connectGlobalWebSocket();
 retryBtn.addEventListener('click', loadMatches);
+setInterval(loadHistory, 30000)
 
 // ── Fetch match list ──────────────────────────
 async function loadMatches() {
@@ -114,7 +119,7 @@ async function openMatch(matchId, homeName, awayName) {
   resetFeed();
 
   currentMatchId = matchId;
-  homeTeam       = null;
+  homeTeam       = homeTeam;
   scoreHome      = scoreAway = 0;
 
   document.getElementById('current-match-id').textContent = matchId;
@@ -165,10 +170,10 @@ function connectWebSocket(matchId) {
 ws.onopen = () => {
   console.log('[WS] Connected. Subscribing to match', matchId);
   // Test if timing is the issue
-  setTimeout(() => {
-    console.log('[WS] Sending subscribe, readyState:', ws.readyState);
-    ws.send(JSON.stringify({ type: 'subscribe', matchesId: Number(matchId) }));
-  }, 500);
+  // setTimeout(() => {
+  //   console.log('[WS] Sending subscribe, readyState:', ws.readyState);
+  //   ws.send(JSON.stringify({ type: 'subscribe', matchesId: Number(matchId) }));
+  // }, 500);
 };
 
   ws.onmessage = (e) => {
@@ -180,6 +185,7 @@ ws.onopen = () => {
         case 'welcome':
           // Server handshake — connection is healthy
           console.log('[WS] Server welcomed us');
+              ws.send(JSON.stringify({ type: 'subscribe', matchesId: Number(matchId) }));
           return;
 
         case 'subscribed':
@@ -461,13 +467,6 @@ function connectGlobalWebSocket() {
       switch (raw.type) {
         case 'welcome':
           console.log('[Global WS] Ready');
-          return;
-
-        case 'match created':
-          console.log('[Global WS] New match:', raw.data);
-          if (matchesScreen.classList.contains('active')) {
-            prependMatch(raw.data);
-          }
           return;
       }
     } catch(err) {

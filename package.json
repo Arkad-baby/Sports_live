@@ -7,7 +7,6 @@
     "dev": "node --watch src/index.js",
     "start": "node  src/index.js",
     "seed": "node src/live_test_seed/seed_commentary.js",
-    "debug": "node src/live_test_seed/debug.js",
     "db:generate": "drizzle-kit generate --config=src/db/drizzle.config.ts",
     "db:migrate": "drizzle-kit migrate --config=src/db/drizzle.config.ts"
   },
@@ -24,6 +23,7 @@
     "drizzle-orm": "^0.45.1",
     "express": "^5.2.1",
     "pg": "^8.18.0",
+    "serverless-http": "^4.0.0",
     "ws": "^8.19.0",
     "zod": "^4.3.6"
   },
