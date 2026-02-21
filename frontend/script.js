@@ -1,5 +1,9 @@
-const API_BASE = 'http://localhost:8000';
-const WS_URL   = 'ws://localhost:8000/ws';
+// const API_BASE = 'http://localhost:8000';
+// const WS_URL   = 'ws://localhost:8000/ws';
+
+//for netlify serverlss backend
+const API_BASE = '/api';
+const WS_URL = null;
 let globalWs = null;
 let ws             = null;
 let currentMatchId = null;
@@ -42,6 +46,7 @@ const goalScorer     = document.getElementById('goal-scorer');
 loadMatches();
 connectGlobalWebSocket();
 retryBtn.addEventListener('click', loadMatches);
+setInterval(loadHistory, 30000)
 
 // ── Fetch match list ──────────────────────────
 async function loadMatches() {
