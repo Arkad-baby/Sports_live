@@ -1,5 +1,5 @@
 [build]
-  # DELETE any 'base = "frontend"' line if it exists
+  # Ensure there is NO 'base' line here.
   publish = "frontend"
   functions = "netlify/functions"
 
