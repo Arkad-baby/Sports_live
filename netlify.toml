@@ -1,5 +1,9 @@
 [build]
-  base = "frontend"
+  # DELETE any 'base = "frontend"' line if it exists
   publish = "frontend"
-[functions]
-  directory = "frontend/netlify/functions"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
