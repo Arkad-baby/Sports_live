@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch src/index.js",
+    "command ":"npm install --save serverless-http express cors @arcjet/node zod drizzle-orm dotenv",
     "start": "node  src/index.js",
     "seed": "node src/live_test_seed/seed_commentary.js",
     "db:generate": "drizzle-kit generate --config=src/db/drizzle.config.ts",
