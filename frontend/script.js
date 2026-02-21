@@ -114,7 +114,7 @@ async function openMatch(matchId, homeName, awayName) {
   resetFeed();
 
   currentMatchId = matchId;
-  homeTeam       = null;
+  homeTeam       = homeTeam;
   scoreHome      = scoreAway = 0;
 
   document.getElementById('current-match-id').textContent = matchId;
@@ -165,10 +165,10 @@ function connectWebSocket(matchId) {
 ws.onopen = () => {
   console.log('[WS] Connected. Subscribing to match', matchId);
   // Test if timing is the issue
-  setTimeout(() => {
-    console.log('[WS] Sending subscribe, readyState:', ws.readyState);
-    ws.send(JSON.stringify({ type: 'subscribe', matchesId: Number(matchId) }));
-  }, 500);
+  // setTimeout(() => {
+  //   console.log('[WS] Sending subscribe, readyState:', ws.readyState);
+  //   ws.send(JSON.stringify({ type: 'subscribe', matchesId: Number(matchId) }));
+  // }, 500);
 };
 
   ws.onmessage = (e) => {
@@ -180,6 +180,7 @@ ws.onopen = () => {
         case 'welcome':
           // Server handshake — connection is healthy
           console.log('[WS] Server welcomed us');
+              ws.send(JSON.stringify({ type: 'subscribe', matchesId: Number(matchId) }));
           return;
 
         case 'subscribed':
@@ -461,13 +462,6 @@ function connectGlobalWebSocket() {
       switch (raw.type) {
         case 'welcome':
           console.log('[Global WS] Ready');
-          return;
-
-        case 'match created':
-          console.log('[Global WS] New match:', raw.data);
-          if (matchesScreen.classList.contains('active')) {
-            prependMatch(raw.data);
-          }
           return;
       }
     } catch(err) {

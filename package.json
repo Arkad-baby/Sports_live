@@ -7,7 +7,6 @@
     "dev": "node --watch src/index.js",
     "start": "node  src/index.js",
     "seed": "node src/live_test_seed/seed_commentary.js",
-    "debug": "node src/live_test_seed/debug.js",
     "db:generate": "drizzle-kit generate --config=src/db/drizzle.config.ts",
     "db:migrate": "drizzle-kit migrate --config=src/db/drizzle.config.ts"
   },
