@@ -1,9 +1,9 @@
 import serverless from 'serverless-http';
 import express from 'express';
 import cors from 'cors';
-import matchRouter from '../../src/routes/matches.js';
-import router from '../../src/routes/commentary.js';
-import { middleWare } from '../../src/arcjet.js';
+import matchRouter from '../../../src/routes/matches.js';
+import router from '../../../src/routes/commentary.js';
+import { middleWare } from '../../../src/arcjet.js';
 
 const app = express();
 

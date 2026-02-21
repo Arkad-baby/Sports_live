@@ -1,10 +1,7 @@
 [build]
-  base = "frontend"
-  publish = "."
-
-[functions]
-  directory = "../netlify/functions"
-  node_bundler = "esbuild"
+  # Ensure there is NO 'base' line here.
+  publish = "frontend"
+  functions = "netlify/functions"
 
 [[redirects]]
   from = "/api/*"
