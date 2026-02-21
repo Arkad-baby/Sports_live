@@ -1,6 +1,6 @@
 import AgentAPI from 'apminsight';
 AgentAPI.config()
-
+import cors from 'cors';
 import express from 'express';
 import matchRouter from './routes/matches.js';
 import { matchStatusScheduler } from './triggers/match_scheduler.js';
@@ -11,6 +11,12 @@ import router from './routes/commentary.js';
 const app = express();
 const PORT = process.env.PORT || 8000;
 const HOST = process.env.HOST || "0.0.0.0";
+
+app.use(cors({
+  origin: '*',  // allows all origins, or set 'http://127.0.0.1:5500' to restrict
+  methods: ['GET', 'POST', 'PATCH', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 
 const server=http.createServer(app)
 

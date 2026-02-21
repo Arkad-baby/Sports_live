@@ -30,6 +30,11 @@ export function attachWebSocketServer(server) {
     server,
     path: "/ws",
     maxPayload: 1024 * 1024,
+      verifyClient: (info, callback) => {
+    // Allow all origins in development
+    // In production, replace with: info.origin === 'https://yourdomain.com'
+    callback(true);
+      }
   });
 
   // Heartbeat interval - runs once for all connections
@@ -76,11 +81,17 @@ export function attachWebSocketServer(server) {
 
     socket.on("error", console.error);
 
+
+
+
+
+    
     socket.on("message", (message) => {
       try {
         // Convert Buffer to string
         const messageString = message.toString();
         console.log("Received message:", messageString);
+  console.log("Socket readyState:", socket.readyState); 
 
       const data = JSON.parse(messageString);
     console.log("Parsed data:", data);

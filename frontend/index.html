@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Commentary</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- MATCHES LIST SCREEN -->
+  <div id="matches-screen" class="screen active">
+    <div class="matches-bg"></div>
+    <div class="matches-wrapper">
+      <div class="matches-header">
+        <div class="logo"><span class="logo-dot"></span><span>LIVE FEED</span></div>
+        <h1 class="matches-title">Select a Match</h1>
+        <p class="matches-sub">Click any match to subscribe to its live commentary</p>
+      </div>
+      <div id="matches-loading" class="loading-state">
+        <div class="spinner"></div>
+        <span>Fetching matches…</span>
+      </div>
+      <div id="matches-error" class="matches-error hidden">
+        <span>⚠ Could not load matches.</span>
+        <button id="retry-btn">Retry</button>
+      </div>
+      <div id="matches-grid" class="matches-grid hidden"></div>
+    </div>
+  </div>
+
+  <!-- LIVE FEED SCREEN -->
+  <div id="feed-screen" class="screen">
+    <header class="feed-header">
+      <div class="header-left">
+        <button id="back-btn" class="back-btn">← MATCHES</button>
+        <div class="live-badge"><span class="pulse-dot"></span>LIVE</div>
+        <div class="match-info">
+          <span class="match-label">MATCH</span>
+          <span id="current-match-id" class="match-id">—</span>
+        </div>
+      </div>
+      <div class="header-center">
+        <div class="scoreboard">
+          <div class="team-side"><span id="home-name" class="team-name">—</span><span id="score-home" class="score-num">0</span></div>
+          <span class="score-sep">:</span>
+          <div class="team-side away"><span id="score-away" class="score-num">0</span><span id="away-name" class="team-name">—</span></div>
+        </div>
+        <div id="current-period" class="period-tag">—</div>
+      </div>
+      <div class="header-right">
+        <div class="minute-box">
+          <span id="current-minute">0</span><span class="min-label">'</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="stats-bar">
+      <div class="stat-item"><span class="stat-val" id="stat-goals">0</span><span class="stat-label">GOALS</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-val" id="stat-cards">0</span><span class="stat-label">CARDS</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-val" id="stat-fouls">0</span><span class="stat-label">FOULS</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-val" id="stat-saves">0</span><span class="stat-label">SAVES</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-val" id="stat-events">0</span><span class="stat-label">EVENTS</span></div>
+    </div>
+
+    <main class="feed-main">
+      <div id="empty-state" class="empty-state">
+        <div class="empty-icon">⚽</div>
+        <p>Waiting for match events…</p>
+      </div>
+      <div id="commentary-feed"></div>
+    </main>
+  </div>
+
+  <!-- GOAL OVERLAY -->
+  <div id="goal-overlay" class="goal-overlay hidden">
+    <div class="goal-inner">
+      <div class="goal-word">GOAL!</div>
+      <div id="goal-scorer" class="goal-scorer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
